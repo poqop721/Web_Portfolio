@@ -1,12 +1,10 @@
 .no-scroll {
     overflow: hidden !important;
-    position: fixed;
 }
 
 body, html{
     margin: 0;
     font-family: serif;
-    overflow-x: hidden;
 }
 
 .loading{
