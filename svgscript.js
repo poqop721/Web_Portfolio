@@ -1,15 +1,5 @@
 window.onload = function(){
 
-  $('.slider').bxSlider({mode: 'horizontal', responsive: true, pager: true, pagerType: 'short',touchEnabled:false});
-
-  document.querySelector('.pagerLeft1').style.backgroundColor = "rgb(20,122,214)"
-  document.querySelector('.pagerLeft1').style.color = "white"
-  document.querySelector('.leftBottom-2 > .bx-wrapper:nth-child(2)').style.display = "none"
-  document.querySelector('.pagerLeft2').style.backgroundColor = "rgb(20,122,214)"
-  document.querySelector('.pagerLeft2').style.color = "white"
-  document.querySelector('.leftBottom2-2 > .bx-wrapper:nth-child(2)').style.display = "none"
-  document.querySelector('.webHint').style.display="none"
-
   const content = document.querySelector('.content')
   const path2 = document.querySelector('.path2')
   const path2Length = path2.getTotalLength()

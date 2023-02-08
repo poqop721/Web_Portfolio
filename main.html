@@ -18,18 +18,33 @@
     <script rel="preconnect" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="imgmodal.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({mode: 'horizontal', responsive: true, pager: true, pagerType: 'short',touchEnabled:false});
+    
+            document.querySelector('.pagerLeft1').style.backgroundColor = "rgb(20,122,214)"
+            document.querySelector('.pagerLeft1').style.color = "white"
+            document.querySelector('.leftBottom-2 > .bx-wrapper:nth-child(2)').style.display = "none"
+            document.querySelector('.pagerLeft2').style.backgroundColor = "rgb(20,122,214)"
+            document.querySelector('.pagerLeft2').style.color = "white"
+            document.querySelector('.leftBottom2-2 > .bx-wrapper:nth-child(2)').style.display = "none"
+            document.querySelector('.webHint').style.display="none"
+            setTimeout(function(){
+                $(".loading").fadeOut();
+                $(".path1").show();
+            }, 1000);
+        });
+    
+        $(window).on("load", function() {
+            document.body.classList.remove('no-scroll');
+          });
+    </script>
 </head>
-<!-- <script>
-    $(document).ready(function () {
-        setTimeout(function(){
-            $(".loading").fadeOut();
-        }, 1000);
-    });
-</script> -->
-<body>
-    <!-- <div class="loading">
+<body class=".noScroll">
+    <div class="loading">
         <div class="spinner"></div>
-    </div> -->
+    </div>
     <!--container-->
     <div class="container">
         <!--header-->
