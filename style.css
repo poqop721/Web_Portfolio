@@ -1,3 +1,8 @@
+.no-scroll {
+    overflow: hidden !important;
+    position: fixed;
+}
+
 body, html{
     margin: 0;
     font-family: serif;
@@ -15,9 +20,6 @@ body, html{
     justify-content: center;
     align-items: center;
     margin: -30px 0 0 -30px;
-}
-
-body.noScroll {
     overflow: hidden !important
 }
 
@@ -25,8 +27,8 @@ body.noScroll {
     position: absolute;
     top: 50%;
     left: 50%;
-    border: 8px solid #f3f3f3; /* Light grey */
-    border-top: 8px solid #3498db; /* Blue */
+    border: 2px solid #f3f3f3; /* Light grey */
+    border-top: 2px solid #000000; /* Blue */
     border-radius: 50%;
     width: 60px;
     height: 60px;
