@@ -21,7 +21,8 @@
     <script>
         $(window).on("load", function() {
           document.body.classList.remove('no-scroll');
-          document.$('#humansvg').classList.remove('no-scroll');
+          $('#humansvg').classList.remove('no-scroll');
+          $(".loading").remove();
         });
       </script>
 </head>
@@ -39,6 +40,9 @@
     });
 </script>
 <body class="no-scroll">
+    <div class="loading">
+        <div class="spinner"></div>
+    </div>
     <!--container-->
     <div class="container">
         <!--header-->

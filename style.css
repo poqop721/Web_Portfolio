@@ -1,5 +1,6 @@
 .no-scroll {
-    position: fixed;
+    overflow: hidden !important;
+    /* position: fixed; */
 }
 
 body, html{
@@ -13,13 +14,16 @@ body, html{
     height:100%;
     position:fixed;
     left:0px;
-    top:0px;
+    top:40vh;
     background:#00000000;
     z-index:100001; 
     justify-content: center;
     align-items: center;
     margin: -30px 0 0 -30px;
-    overflow: hidden !important
+    opacity: 0;
+    animation: nav-anim 1s linear .0s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
 }
 
 .spinner {
