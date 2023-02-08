@@ -1,0 +1,147 @@
+/* svg{
+    z-index: 2;
+} */
+
+.path {
+    fill: none;
+    stroke: #f2f2f2;
+    stroke-width: 1px;
+}
+
+.path1{
+    stroke-width: 1px;
+    stroke-dasharray: 1892; 
+    animation: header-anim 1.7s linear .0s ;
+}
+
+
+#humansvg{
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes header-anim {
+    from {stroke-dashoffset : 1892;}
+    to {stroke-dashoffset : 0px;}
+ }
+
+.path2{
+     stroke: #000;
+ }
+
+ .camerasvg{
+    position: absolute;
+}
+
+ .path3{
+    stroke: white;
+    stroke-width: 3px;
+}
+
+.path4{
+    stroke: white;
+    stroke-width: 1px;
+}
+
+.computersvg{
+    position: absolute;
+    left:0;
+}
+
+.letter{
+    stroke-width: 2px;
+    stroke-dasharray: 300; 
+    animation: letter-anim linear .0s infinite;
+    animation-duration: 2.5s;    
+    animation-fill-mode: backwards;
+}
+
+.letters{
+    position: absolute;
+    top: 21.3vw;
+    right: 10.5vw;
+    width: 7vw;
+    height: 5vw;
+    overflow-y: hidden;
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 15%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeOutUp {
+    0% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, 15%, 0);
+    }
+}
+
+.path4_1{
+    position: relative;
+}
+
+.path4-2{
+    animation-delay: 1s; 
+}
+
+.path4_2{
+    position: relative;
+    top: 0.4vw;
+}
+
+.path4-3{
+    animation-delay: 2s;
+}
+
+.path4_3{
+        position: relative;
+        top: 0.8vw;
+}
+
+
+@keyframes letter-anim {
+    from {stroke-dashoffset : 300;;}
+    to {stroke-dashoffset : 0px;}
+ }
+
+
+.phonesvg{
+    position: absolute;
+    left: 0%;
+}
+
+ .path5{
+    stroke: white;
+    stroke-width: 1px;
+}
+.path6{
+   stroke: black;
+   stroke-width: 1px;
+}
+
+.path7{
+    stroke: white;
+    stroke-width: 1px;
+ }
+
+ .websvg{
+     position: absolute;
+     left:0;
+ }
+
+ .footersvg{
+     position: absolute;
+     z-index: 2;
+ }

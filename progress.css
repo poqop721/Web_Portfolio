@@ -1,0 +1,200 @@
+.skills{
+    width: 85%;
+    line-height: 10%;
+    margin: 0 auto;
+}
+
+.skills h1{
+    border-bottom: 1px solid rgb(160, 159, 159);
+    padding-bottom: 10%;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.skills img{
+    float: left;
+    padding-right: 9%;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    height: 6vw;
+    padding: 1% 0;
+}
+
+
+.progress {
+    float: right;
+    background-color: rgb(185, 177, 177);
+    width: 80%;
+    height: 17%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px gray;
+  }
+
+.progress-bar { 
+    float: left; 
+    border-radius: 30px;
+    height: 100%;
+}
+
+.progress-bar.purple {
+    background-color: purple;
+    width: 80%;
+  }
+
+  .progress-bar.green {
+    background-color: green;
+    width: 80%;
+  }
+
+  .progress-bar.red {
+    background-color: red;
+    width: 75%;
+  }
+
+
+.progress-bar.orange {
+  background-color: orange;
+  width:75%;
+}
+
+.progress-bar.blue {
+  background-color: blue;
+  width:85%;  
+}
+
+.progress-bar.yellow {
+  background-color: yellow;
+  width: 90%;
+}
+
+.progress-bar.pink {
+    background-color: rgb(225, 101, 253);
+    width: 60%;
+  }
+
+@keyframes purpleIn {
+    0% {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes purpleOut {
+    0% {
+        width: 80%;
+    }
+    to {
+        width: 0;
+    }
+}
+@keyframes greenIn {
+    0% {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes greenOut {
+    0% {
+        width: 80%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+@keyframes redIn {
+    0% {
+        width: 0;
+    }
+    to {
+        width: 75%;
+    }
+}
+
+@keyframes redOut {
+    0% {
+        width: 75%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+@keyframes orangeIn {
+    0% {
+        width: 0;
+    }
+    to {
+        width: 75%;
+    }
+}
+
+@keyframes orangeOut {
+    0% {
+        width: 75%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+@keyframes blueIn {
+    0% {
+        width: 0;
+    }
+    to {
+        width: 85%;
+    }
+}
+
+@keyframes blueOut {
+    0% {
+        width: 85%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+@keyframes yellowIn {
+    0% {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes yellowOut {
+    0% {
+        width: 90%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+@keyframes pinkIn {
+    0% {
+        width: 0;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+@keyframes pinkOut {
+    0% {
+        width: 60%;
+    }
+    to {
+        width: 0;
+    }
+}
