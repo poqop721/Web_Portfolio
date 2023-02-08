@@ -1,6 +1,6 @@
 .no-scroll {
     overflow: hidden !important;
-    /* position: fixed; */
+    position: fixed;
 }
 
 body, html{
