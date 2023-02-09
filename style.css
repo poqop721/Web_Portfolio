@@ -59,14 +59,20 @@ body, html{
     height:100%;
     position:absolute;
     left:0px;
-    top:47vh;
+    top:42vh;
     justify-content: center;
     align-items: center;
     margin: -30px 0 0 -30px;
-    opacity: 0;
-    animation: nav-anim 1s linear .0s;
-    animation-delay: 2s;
+    animation: upDownMotion 0.3s linear 0s infinite alternate;
+    animation-delay: 2.2s;
+    margin-top: 0;
     animation-fill-mode: forwards;
+}
+
+
+@keyframes upDownMotion {
+    0% {margin-top: 0px;}
+    100% {margin-top: 10px;}
 }
 
 .pageDown{

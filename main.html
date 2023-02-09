@@ -20,9 +20,11 @@
     <script src="imgmodal.js"></script>
     <script>
         $(window).on("load", function() {
-            $('.loading').remove();
+            $('.loading').remove()
             document.body.classList.remove('no-scroll');
-            document.querySelector('.afterLoading').style.display="block";
+            setTimeout(function(){
+                document.querySelector('.pageDown').style.display="block";
+            },2000)
         });
       </script>
 </head>
@@ -47,8 +49,8 @@
     <div class="loading">
         <div class="spinner"></div>
     </div>
-    <div class="afterLoading" style="display: none;">
-        <img class="pageDown" src="images/pageDown.png" alt="page_down"/>
+    <div class="afterLoading" >
+        <img class="pageDown" src="images/pageDown.png" alt="page_down" style="display: none;"/>
     </div>
     <!--container-->
     <div class="container">
