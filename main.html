@@ -22,6 +22,7 @@
         $(window).on("load", function() {
             $('.loading').remove();
             document.body.classList.remove('no-scroll');
+            document.querySelector('.afterLoading').style.display="block";
         });
       </script>
 </head>
@@ -45,6 +46,9 @@
 <body class="no-scroll">
     <div class="loading">
         <div class="spinner"></div>
+    </div>
+    <div class="afterLoading" style="display: none;">
+        <img class="pageDown" src="images/pageDown.png" alt="page_down"/>
     </div>
     <!--container-->
     <div class="container">
