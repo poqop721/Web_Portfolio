@@ -198,3 +198,13 @@
         width: 0;
     }
 }
+
+@media (max-width: 819px) {
+    .language{
+        display: flex;
+        align-items: center;
+        height: 15vw;
+        padding: 1% 0;
+        margin-bottom: 1vh;
+    }
+}
